@@ -32,6 +32,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#twiter bootstrap with rails
+# gem "twitter-bootstrap-rails"
+# gem "less-rails"
+gem 'foundation-rails','5.1.1.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

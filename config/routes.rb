@@ -1,4 +1,8 @@
 ChartArt::Application.routes.draw do
+  root "chart#chart_index"
+
+
+  get '/import_data' => 'chart#import_data'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -36,6 +36,8 @@ end
 # gem "twitter-bootstrap-rails"
 # gem "less-rails"
 gem 'foundation-rails','5.1.1.0'
+
+gem "highcharts-rails", "~> 3.0.0"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

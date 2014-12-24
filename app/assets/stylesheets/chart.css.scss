@@ -1,3 +1,20 @@
-// Place all the styles related to the chart controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+thead{
+  background-color:#2980b9;
+  color:white;
+}
+th,td{
+}
+
+.table {
+    margin-top: 31px;
+    padding: 20px;
+	width: 500px;
+}
+#container, #arearange{
+    border:1px solid grey;
+    height: 200px;
+    width:600px
+}
+

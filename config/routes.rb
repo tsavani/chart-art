@@ -1,7 +1,8 @@
 ChartArt::Application.routes.draw do
   root "chart#chart_index"
 
-
+  get "chart/chart_index"
+ 
   get '/import_data' => 'chart#import_data'
   get '/chart_index' => 'chart#chart_index'
   # The priority is based upon order of creation: first created -> highest priority.

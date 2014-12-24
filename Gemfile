@@ -32,6 +32,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development do
+	gem 'better_errors'
+  gem 'pry'
+end
 #twiter bootstrap with rails
 # gem "twitter-bootstrap-rails"
 # gem "less-rails"
